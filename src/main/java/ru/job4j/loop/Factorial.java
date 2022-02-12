@@ -2,10 +2,10 @@ package ru.job4j.loop;
 
 public class Factorial {
     public static int calc(int n) {
-        int result = 1;
+        int rsl = 1;
         for (int i = 0; i < n; i++) {
-            result *= n - i;
+            rsl *= n - i;
         }
-        return result;
+        return rsl;
     }
 }
