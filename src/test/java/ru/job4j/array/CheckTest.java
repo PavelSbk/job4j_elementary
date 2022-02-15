@@ -34,11 +34,4 @@ public class CheckTest {
         boolean result = Check.mono(data);
         Assert.assertFalse(result);
     }
-
-    @Test
-    public void whenDataOnlyFalse() {
-        boolean[] data = new boolean[]{true};
-        boolean result = Check.mono(data);
-        Assert.assertFalse(result);
-    }
 }
