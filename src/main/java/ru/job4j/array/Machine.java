@@ -17,8 +17,4 @@ public class Machine {
         }
         return Arrays.copyOf(rsl, size);
     }
-
-    public static void main(String[] args) {
-
-    }
 }
