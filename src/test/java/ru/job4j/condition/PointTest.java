@@ -3,8 +3,6 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static java.awt.geom.Point2D.distance;
-
 public class PointTest {
     @Test
     public void whenX11Y3toX8Y1hen9d70() {
